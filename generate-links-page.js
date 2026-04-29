@@ -4,7 +4,7 @@ const fs = require("fs/promises");
 const cheerio = require("cheerio");
 
 const site = {
-  title: "Interesting Links",
+  title: "Articles of Interest (AI)",
   subtitle: "Articles, references, and other useful things worth saving.",
   input: "links.txt",
   output: "index.html"
@@ -25,7 +25,8 @@ async function main() {
 
   await saveCache(cache);
 
-  const html = renderPage(site, items);
+  const generatedAt = new Date().toISOString();
+  const html = renderPage(site, items, generatedAt);
   await fs.writeFile(site.output, html, "utf8");
 
   console.log(`Done. Wrote ${site.output} with ${items.length} links.`);
@@ -127,6 +128,13 @@ async function fetchMetadata(url) {
 
 /* -------------------- HELPERS -------------------- */
 
+function formatDate(iso) {
+  return new Date(iso).toLocaleString(undefined, {
+    dateStyle: "medium",
+    timeStyle: "short"
+  });
+}
+
 function getMeta($, attr, value) {
   return $(`meta[${attr}="${value}"]`).attr("content")?.trim() || "";
 }
@@ -164,7 +172,7 @@ function escapeHtml(value) {
 
 /* -------------------- RENDER -------------------- */
 
-function renderPage(site, items) {
+function renderPage(site, items, generatedAt) {
   const cards = items.map(renderCard).join("\n");
 
   return `<!doctype html>
@@ -185,8 +193,12 @@ function renderPage(site, items) {
 <body>
   <h1>${escapeHtml(site.title)}</h1>
   <p>${escapeHtml(site.subtitle)}</p>
+  <p><i>Generated on ${escapeHtml(formatDate(generatedAt))}</i></p>
   ${cards}
 </body>
+<footer>
+  Generated on ${escapeHtml(formatDate(generatedAt))}
+</footer>
 </html>`;
 }
 
