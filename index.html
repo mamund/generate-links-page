@@ -11,12 +11,28 @@
     .no-image { width: 160px; height: 100px; background: #eee; display: flex; align-items: center; justify-content: center; }
     h2 { margin: 0 0 0.3rem; }
     .source { color: #666; font-size: 0.9rem; }
+    #search {
+      width: 100%;
+      margin: 1.5rem 0 2rem;
+      padding: 0.8rem 1rem;
+      font: inherit;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      color: var(--text);
+    }
   </style>
 </head>
 <body>
   <h1>Articles of Interest (AI)</h1>
   <p>Articles, references, and other useful things worth saving.</p>
-  <p><i>Generated on Apr 29, 2026, 6:05 PM</i></p>
+  <p><i>Generated on Apr 29, 2026, 6:23 PM</i></p>
+  <input
+    id="search"
+    type="search"
+    placeholder="Search links..."
+    aria-label="Search links"
+  />
   <div class="link-card">
     <a href="https://www.mla.org/Resources/Advocacy/Executive-Council-Actions/2026/Statement-on-AI-and-Assessment"><div class="no-image">No image</div></a>
     <div>
@@ -235,6 +251,21 @@
   </div>
 </body>
 <footer>
-  Generated on Apr 29, 2026, 6:05 PM
+  Generated on Apr 29, 2026, 6:23 PM
 </footer>
+<script>
+  const search = document.querySelector("#search");
+  const cards = document.querySelectorAll(".link-card");
+
+  search.addEventListener("input", () => {
+    const q = search.value.toLowerCase().trim();
+
+    cards.forEach(card => {
+      const text = card.textContent.toLowerCase();
+      const match = !q || text.includes(q);
+
+      card.style.display = match ? "" : "none";    });
+  });
+</script>
+
 </html>

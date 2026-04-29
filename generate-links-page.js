@@ -188,17 +188,48 @@ function renderPage(site, items, generatedAt) {
     .no-image { width: 160px; height: 100px; background: #eee; display: flex; align-items: center; justify-content: center; }
     h2 { margin: 0 0 0.3rem; }
     .source { color: #666; font-size: 0.9rem; }
+    #search {
+      width: 100%;
+      margin: 1.5rem 0 2rem;
+      padding: 0.8rem 1rem;
+      font: inherit;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--card);
+      color: var(--text);
+    }
   </style>
 </head>
 <body>
   <h1>${escapeHtml(site.title)}</h1>
   <p>${escapeHtml(site.subtitle)}</p>
   <p><i>Generated on ${escapeHtml(formatDate(generatedAt))}</i></p>
+  <input
+    id="search"
+    type="search"
+    placeholder="Search links..."
+    aria-label="Search links"
+  />
   ${cards}
 </body>
 <footer>
   Generated on ${escapeHtml(formatDate(generatedAt))}
 </footer>
+<script>
+  const search = document.querySelector("#search");
+  const cards = document.querySelectorAll(".link-card");
+
+  search.addEventListener("input", () => {
+    const q = search.value.toLowerCase().trim();
+
+    cards.forEach(card => {
+      const text = card.textContent.toLowerCase();
+      const match = !q || text.includes(q);
+
+      card.style.display = match ? "" : "none";    });
+  });
+</script>
+
 </html>`;
 }
 
