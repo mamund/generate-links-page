@@ -2,6 +2,7 @@
 
 # update the links page and commit
 node generate-links-page.js 
+
 git add --all
 git commit -m"Update links"
 git push origin main
@@ -9,10 +10,10 @@ git push origin main
 # copy the index.html to the links folder and commit
 cp index.html ../../../github-webs/01-active/mamund.github.io/links/
 cd ../../../github-webs/01-active/mamund.github.io
-dir
+
 git add --all
 git commit -m"Update links"
-git push origin main
+git push origin master
 
 # retutn to starting location
 cd ../../../Private/Projects/2026-04-links-page
