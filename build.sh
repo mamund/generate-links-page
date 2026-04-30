@@ -14,7 +14,7 @@ dir
 # git commit -m"Update links"
 # git push origin main
 
-cd ../../../Private/Projects/2026-04-30/links-page
+cd ../../../Private/Projects/2026-04-links-page
 
 # eof
 
