@@ -222,5 +222,13 @@
     "image": "https://media.nngroup.com/media/articles/opengraph_images/Course_Cards_yC3dCdf.png",
     "source": "nngroup.com",
     "error": null
+  },
+  "https://apis.io/2026/04/29/building-an-agent-native-api-catalog/": {
+    "url": "https://apis.io/2026/04/29/building-an-agent-native-api-catalog/",
+    "title": "Building an Agent-Native API Catalog | APIs.io",
+    "description": "Search and discover APIs by what you want to accomplish. Find API providers, individual APIs, capabilities, and schemas across the APIs.io network.",
+    "image": "https://apis.io/assets/images/blog/building-an-agent-native-api-catalog.png",
+    "source": "apis.io",
+    "error": null
   }
 }
