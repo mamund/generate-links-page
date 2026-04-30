@@ -10,10 +10,11 @@ git push origin main
 cp index.html ../../../github-webs/01-active/mamund.github.io/links/
 cd ../../../github-webs/01-active/mamund.github.io
 dir
-# git add --all
-# git commit -m"Update links"
-# git push origin main
+git add --all
+git commit -m"Update links"
+git push origin main
 
+# retutn to starting location
 cd ../../../Private/Projects/2026-04-links-page
 
 # eof
