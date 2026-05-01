@@ -1,3 +1,4 @@
+https://github.com/deanpeters/product-manager-prompts
 https://apis.io/2026/04/29/building-an-agent-native-api-catalog/
 https://www.mla.org/Resources/Advocacy/Executive-Council-Actions/2026/Statement-on-AI-and-Assessment
 https://oreillyradar.substack.com/p/emergency-pedagogical-design-how

@@ -230,5 +230,13 @@
     "image": "https://apis.io/assets/images/blog/building-an-agent-native-api-catalog.png",
     "source": "apis.io",
     "error": null
+  },
+  "https://github.com/deanpeters/product-manager-prompts": {
+    "url": "https://github.com/deanpeters/product-manager-prompts",
+    "title": "GitHub - deanpeters/product-manager-prompts: A repository of Generative AI prompts for product managers using agents such as ChatGPT, Claude, & Gemini",
+    "description": "A repository of Generative AI prompts for product managers using agents such as ChatGPT, Claude, & Gemini - deanpeters/product-manager-prompts",
+    "image": "https://opengraph.githubassets.com/37b0bcdd9cc6f8ef993802a1522345c432e48e753cc65adf0f1b094a064c5eb6/deanpeters/product-manager-prompts",
+    "source": "github.com",
+    "error": null
   }
 }
