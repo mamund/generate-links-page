@@ -238,5 +238,13 @@
     "image": "https://opengraph.githubassets.com/37b0bcdd9cc6f8ef993802a1522345c432e48e753cc65adf0f1b094a064c5eb6/deanpeters/product-manager-prompts",
     "source": "github.com",
     "error": null
+  },
+  "https://www.nature.com/articles/s44222-025-00323-4": {
+    "url": "https://www.nature.com/articles/s44222-025-00323-4",
+    "title": "Writing is thinking - Nature Reviews Bioengineering",
+    "description": "On the value of human-generated scientific writing in the age of large-language models.",
+    "image": "",
+    "source": "nature.com",
+    "error": null
   }
 }
