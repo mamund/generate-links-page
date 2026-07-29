@@ -1,3 +1,5 @@
+https://learnvector.ai/
+https://hamsabastani.github.io/education_llm.pdf
 https://www.nature.com/articles/s44222-025-00323-4
 https://github.com/deanpeters/product-manager-prompts
 https://apis.io/2026/04/29/building-an-agent-native-api-catalog/

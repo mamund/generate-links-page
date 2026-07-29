@@ -246,5 +246,21 @@
     "image": "",
     "source": "nature.com",
     "error": null
+  },
+  "https://learnvector.ai/": {
+    "url": "https://learnvector.ai/",
+    "title": "LearnVector — A new AI company from Andrew Ng",
+    "description": "A new AI company from Andrew Ng, with a $100M investment from Coursera — building one-to-one learning that stays with you until you've mastered new skills.",
+    "image": "https://learnvector.ai/assets/social-card.jpg",
+    "source": "learnvector.ai",
+    "error": null
+  },
+  "https://hamsabastani.github.io/education_llm.pdf": {
+    "url": "https://hamsabastani.github.io/education_llm.pdf",
+    "title": "https://hamsabastani.github.io/education_llm.pdf",
+    "description": "",
+    "image": "",
+    "source": "hamsabastani.github.io",
+    "error": null
   }
 }
