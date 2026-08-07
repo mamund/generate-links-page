@@ -278,5 +278,13 @@
     "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "source": "arxiv.org",
     "error": null
+  },
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC2440773/": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2440773/",
+    "title": "Cortical mechanisms of action selection: the affordance competition hypothesis - PMC",
+    "description": "At every moment, the natural world presents animals with two fundamental pragmatic problems: selection between actions that are currently possible and specification of the parameters or metrics of those actions. It is commonly suggested that the ...",
+    "image": "",
+    "source": "pmc.ncbi.nlm.nih.gov",
+    "error": null
   }
 }
