@@ -286,5 +286,21 @@
     "image": "",
     "source": "pmc.ncbi.nlm.nih.gov",
     "error": null
+  },
+  "https://martinfowler.com/bliki/UbiquitousLanguage.html": {
+    "url": "https://martinfowler.com/bliki/UbiquitousLanguage.html",
+    "title": "bliki: Ubiquitous Language",
+    "description": "a bliki entry for Ubiquitous Language",
+    "image": "https://martinfowler.com/logo-sq.png",
+    "source": "martinfowler.com",
+    "error": null
+  },
+  "https://www.martinfowler.com/articles/llm-and-dsls.html": {
+    "url": "https://www.martinfowler.com/articles/llm-and-dsls.html",
+    "title": "DSLs Enable Reliable Use of LLMs",
+    "description": "Why Domain-Specific Languages and good abstractions make LLM code generation reliable and reviewable.",
+    "image": "https://martinfowler.com/logo-sq.png",
+    "source": "martinfowler.com",
+    "error": null
   }
 }
