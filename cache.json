@@ -302,5 +302,13 @@
     "image": "https://martinfowler.com/logo-sq.png",
     "source": "martinfowler.com",
     "error": null
+  },
+  "https://arxiv.org/abs/2603.22106?": {
+    "url": "https://arxiv.org/abs/2603.22106?",
+    "title": "From Technical Debt to Cognitive and Intent Debt: Rethinking Software Health in the Age of AI",
+    "description": "Generative AI is accelerating software development, but may quietly shift where the most significant risks lie. As AI generates code faster than teams can understand it, two under appreciated forms of debt accumulate: cognitive debt, the erosion of shared understanding across a team, and intent debt, the absence of externalized rationale that developers and AI agents need to work safely with code. This article proposes a Triple Debt Model for reasoning about software health, built around three interacting debt types: technical debt in code, cognitive debt in people, and intent debt in externalized knowledge. Cognitive debt is a team-level, project-level property reflecting the erosion of shared understanding across a software system over time, leading to increasingly inadequate shared mental models for reasoning about and safely changing the system. Intent debt refers to the absence or erosion of explicit rationale, goals, and constraints that guide how humans and agents evolve the system. We discuss how generative AI changes the relative importance of these debt types, how each can be diagnosed and mitigated, and surface points of debate for practitioners.",
+    "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "source": "arxiv.org",
+    "error": null
   }
 }
