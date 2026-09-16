@@ -1,3 +1,4 @@
+https://www.scientificamerican.com/article/the-expert-mind/
 https://arxiv.org/abs/2603.22106?
 https://martinfowler.com/bliki/UbiquitousLanguage.html
 https://www.martinfowler.com/articles/llm-and-dsls.html

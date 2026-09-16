@@ -310,5 +310,13 @@
     "image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "source": "arxiv.org",
     "error": null
+  },
+  "https://www.scientificamerican.com/article/the-expert-mind/": {
+    "url": "https://www.scientificamerican.com/article/the-expert-mind/",
+    "title": "The Expert Mind",
+    "description": "Studies of the mental processes of chess grandmasters have revealed clues to how people become experts in other fields as well",
+    "image": "https://static.scientificamerican.com/sciam/cache/file/CD9CE187-21A8-4076-9E9CDC01565F8823_source.jpg?w=1200",
+    "source": "scientificamerican.com",
+    "error": null
   }
 }
